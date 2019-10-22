@@ -1,130 +1,940 @@
-<html>
+﻿<!DOCTYPE html>
+<html lang="en">
 <head>
-  <SCRIPT LANGUAGE="JavaScript">
-        <!--
-        function onload(){
-//                var obj=document.getElementById('jk');
-        }
-        function fnChange(){
-        }
-        function onClear(){
-                document.getElementById("vipurl").value="";
-        }
-        function onPlay(){
-                var oJK = document.getElementById("jk");
-                var sJK=oJK.options[oJK.selectedIndex].value;
-                var sVipUrl = document.getElementById("vipurl").value;
-                var oWin = document.getElementById("play");
-                if (sVipUrl.length>0){
-                        oWin.src=sJK + sVipUrl;
-                }
-        }
-//        function iFrameHeight() { 
-//                var ifm = document.getElementById("play"); 
-//                var subWeb = document.frames ? document.frames["play"].document : ifm.contentDocument;
-//                ifm.height = subWeb.body.scrollHeight;
-//                ifm.width = subWeb.body.scrollWidth;
-//        }
-        //-->
-  </SCRIPT>
-  <title>    免费VIP播放器网页版    </title>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html">
+
+<title>Bodo</title>
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<meta content="Bodo - Simple One Page Personal" name="description">
+<meta content="BdgPixel" name="author">
+<!--Fav-->
+<link href="images/favicon.css" rel="shortcut icon">
+
+<!--styles-->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/owl.carousel.css" rel="stylesheet">
+<link href="css/owl.theme.css" rel="stylesheet">
+<link href="css/magnific-popup.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+
+<!--fonts google-->
+<link href='../../../../' rel='stylesheet' type='text/css'>
+<link href='../../../../' rel='stylesheet' type='text/css'>
+
+<!--[if lt IE 9]>
+   <script type="text/javascript" src="js/html5shiv.min.js"></script>
+<![endif]-->
 </head>
-<body onload="onload()" bgcolor=#000000>
-<table  width="100%" align="center" height="100%" border="0" cellpadding="0" cellspacing="0">
-<tr>
-        <td height="9">
-                <form method="post" action="">
-                <select name="jk" id="jk" size=1 onchange="fnChange()">
-                        <option value="http://api.baiyug.cn/vip/index.php?url=" selected>超清</option>
+<body>
+<!--PRELOADER-->
+<div id="preloader">
+  <div id="status">
+	<img alt="logo" src="images/logo-big.png">
+  </div>
+</div>
+<!--/.PRELOADER END-->
 
-                        <option value="http://www.vipjiexi.com/yun.php?url=" selected>接口1</option>
+<!--HEADER -->
+<div class="header">
+  <div class="for-sticky">
+	<!--LOGO-->
+	<div class="col-md-2 col-xs-6 logo">
+	  <a href=""><img alt="logo" class="logo-nav" src="images/logo.png"></a>
+	</div>
+	<!--/.LOGO END-->
+  </div>
+  <div class="menu-wrap">
+	<nav class="menu">
+	  <div class="menu-list">
+		<a data-scroll="" href="" class="active">
+		  <span>Home</span>
+		</a>
+		<a data-scroll="" href="">
+		  <span>About</span>
+		</a>
+		<a data-scroll="" href="">
+		  <span>Work</span>
+		</a>
+		 <a data-scroll="" href="">
+		  <span>Services</span>
+		</a>
+		<a data-scroll="" href="">
+		  <span>Employement</span>
+		</a>
+		<a data-scroll="" href="">
+		  <span>Skills</span>
+		</a>
+		<a data-scroll="" href="">
+		  <span>Education</span>
+		</a>
+		<a data-scroll="" href="">
+		  <span>Testimonial</span>
+		</a>
+		<a data-scroll="" href="">
+		  <span>Blog</span>
+		</a>
+		<a data-scroll="" href="">
+		  <span>Contact</span>
+		</a>
+	  </div>
+	</nav>
+	<button class="close-button" id="close-button">Close Menu</button>
+  </div>
+  <button class="menu-button" id="open-button">
+	<span></span>
+	<span></span>
+	<span></span>
+  </button><!--/.for-sticky-->
+</div>
+<!--/.HEADER END-->
 
-                        <option value="http://api.1008net.com/v.php?url=" selected>接口2</option>
+<!--CONTENT WRAP-->
+<div class="content-wrap">
+  <!--CONTENT-->
+  <div class="content">
+	<!--HOME-->
+	<section id="home">
+	  <div class="container">
+		<div class="row">
+		  <div class="wrap-hero-content">
+			  <div class="hero-content">
+				<h1>Hello</h1>
+				<br>
+				<span class="typed"></span>
+			  </div>
+		  </div>
+		  <div class="mouse-icon margin-20">
+			<div class="scroll"></div>
+		  </div>
+		</div>
+	  </div>
+	</section>
+	<!--/.HOME END-->
 
-                        <option value="http://api.nepian.com/ckparse/?url=" selected>接口3</option>
+	<!--ABOUT-->
+	<section id="about">
+	  <div class="col-md-6 col-xs-12 no-pad">
+		<div class="bg-about"></div>
+	  </div>
+	  <div class="col-md-6 col-sm-12 col-xs-12 white-col">
+		<div class="row">
+		  <!--OWL CAROUSEL2-->
+		  <div class="owl-carousel2">
+			<div class="col-md-12">
+			  <div class="wrap-about">
+				<div class="w-content">
+				  <p class="head-about">
+					Design is the method of putting form and content together. Design, just as art, has multiple definitions there is no single definition. Design can be art. Design can be aesthetics. Design is so simple, that's why it is so complicated.
+				  </p>
+				  
+				  <h5 class="name">
+					M. Reza
+				  </h5>
+				  <img alt="signature" src="images/signature.png">
+				</div>
+			  </div>
+			</div>
+		  
+			<div class="col-md-12 col-sm-12 col-xs-12 white-col">
+			  <div class="row">
+				<div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12">
+				  <div class="wrap-about">
+					<table class="w-content">
+					  <tr>
+						<td class="title">Name </td>
+						<td class="break">:</td>
+						<td> M. Reza</td>
+					  </tr>
+					  <tr>
+						<td class="title">Phone </td>
+						<td class="break">:</td>
+						<td> +62 8678 999 012</td>
+					  </tr>
+					  <tr>
+						<td class="title">Email </td>
+						<td class="break">:</td>
+						<td> bdgpixel@gmail.com</td>
+					  </tr>
+					  <tr>
+						<td class="title">Address </td>
+						<td class="break">:</td>
+						<td> Cipamokolan street 102 , Bandung, Indonesia</td>
+					  </tr>
+					  <tr>
+						<td class="title">Skype </td>
+						<td class="break">:</td>
+						<td> bdgpixel</td>
+					  </tr>
+					  <tr>
+						<td class="title">Dribbble </td>
+						<td class="break">:</td>
+						<td> Muh-Reza</td>
+					  </tr>
+					  <tr>
+						<td class="title">Behance</td>
+						<td class="break">:</td>
+						<td> m-reza</td>
+					  </tr>
+					</table>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  <!--/.OWL CAROUSEL2 END-->
+		</div>
+	  </div>
+	</section>
+	<!--/.ABOUT END-->
 
-                        <option value="http://player.jidiaose.com/supapi/iframe.php?v=" selected>接口4</option>
+	<!--WORK-->
+	<section class="grey-bg mar-tm-10" id="work">
+	  <div class="container">
+		<div class="row">
+		  <div class="col-md-3">
+			<h3 class="title-small">
+			  <span>Work</span>
+			</h3>
+			<p class="content-detail">
+			  Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. <br><br>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros.
+			</p>
+		  </div>
+		  <div class="col-md-9 content-right">
+			<!--PORTFOLIO IMAGE-->
+			<ul class="portfolio-image">
+			  <li class="col-md-6">
+				<a href="javascript:;"><img alt="image" src="images/bw-1.png">
+				  <div class="decription-wrap">
+					<div class="image-bg">
+					   <p class="desc">My Resume</p>
+					</div>
 
-                        <option value="http://api.pucms.com/index.php?url=" selected>接口5</option>
+				  </div>
+				</a>
+			  </li>
+			  <li class="col-md-6">
+				<a href="javascript:;"><img alt="image" src="images/bw-2.png">
+				  <div class="decription-wrap">
+					<div class="image-bg">
+					  <p class="desc">
+						Pangirutan
+					  </p>
+					</div>
+				  </div>
+				</a>
+			  </li>
+			  <li class="col-md-6">
+				<a href="javascript:;"><img alt="image" src="images/bw-3.png">
+				  <div class="decription-wrap">
+					<div class="image-bg">
+					  <p class="desc">
+						Black Mug
+					  </p>
+					</div>
+				  </div>
+				</a>
+			  </li>
+			  <li class="col-md-6">
+				<a href="javascript:;"><img alt="image" src="images/bw-4.png">
+				  <div class="decription-wrap">
+					<div class="image-bg">
+					  <p class="desc">
+						Notebook Mockup
+					  </p>
+					</div>
+				  </div>
+				</a>
+			  </li>
+			  <li class="col-md-6">
+				<a href="javascript:;"><img alt="image" src="images/bw-5.png">
+				  <div class="decription-wrap">
+					<div class="image-bg">
+					  <p class="desc">
+						Presentation
+					  </p>  
+					</div>
+				  </div>
+				</a>
+			  </li>
+			  <li class="col-md-6">
+				<a href="javascript:;"><img alt="image" src="images/bw-6.png">
+				  <div class="decription-wrap">
+					<div class="image-bg">
+					  <p class="desc">
+						Letter Branding
+					  </p>
+					</div>
+				  </div>
+				</a>
+			  </li>
+			</ul>
+			<!--/.PORTFOLIO IMAGE END-->
+		  </div>
+		</div>
+	  </div>
+	</section>
+	<!--/.WORK END-->
 
-                        <option value="http://api.wlzhan.com/sudu/?url=" selected>接口6</option>
+	<!--SERVICES-->
+	<section class="white-bg" id="services">
+	  <div class="container">
+		<div class="row">
+		  <div class="col-md-3">
+			<h3 class="title-small">
+			  <span>Services</span>
+			</h3>
+			<p class="content-detail">
+			  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+			</p>
+		  </div>
+		  <div class="col-md-9 content-right">
+			<div class="row">
+			  <ul class="listing-item">
+				<li>
+				  <div class="col-md-4 col-sm-4">
+					<h3 class="icon-use">
+					  c
+					</h3>
+					<p class="head-sm">
+					  MARKETING
+					</p>
+					<p class="text-grey">
+					  Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem. 
+					</p>
+				  </div>
+				</li>
 
-                        <option value="http://www.0335haibo.com/yun.php?url=" selected>接口7</option>
+				<li>
+				  <div class="col-md-4 col-sm-4">
+					<h3 class="icon-use">
+					  b
+					</h3>
+					<p class="head-sm">
+					  WEB DESIGN
+					</p>
+					<p class="text-grey">
+					  Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem. 
+					</p>
+				  </div>
+				</li>
 
-                        <option value="http://yun.mt2t.com/yun?url=" selected>接口8</option>
+				<li>
+				  <div class="col-md-4 col-sm-4">
+					<h3 class="icon-use">
+					  d
+					</h3>
+					<p class="head-sm">
+					  UI
+					</p>
+					<p class="text-grey">
+					  Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem. 
+					</p>
+				  </div>
+				</li>
+			  </ul>
 
-                        <option value="http://y.mt2t.com/lines?url=" selected>接口9</option>
+			  <ul class="listing-item">
+				<li>
+				  <div class="col-md-4 col-sm-4">
+					<p class="icon-use">
+					  f
+					</p>
+					<p class="head-sm">
+					  DIRECTOR
+					</p>
+					<p class="text-grey">
+					  Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem. 
+					</p>
+				  </div>
+				</li>
 
-                        <option value="http://www.0335haibo.com/yun.php?url=" selected>接口10</option>
+				<li>
+				  <div class="col-md-4 col-sm-4">
+					<h3 class="icon-use">
+					  p
+					</h3>
+					<p class="head-sm">
+					  UX DESIGN
+					</p>
+					<p class="text-grey">
+					  Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem. 
+					</p>
+				  </div>
+				</li>
 
-                        <option value="http://www.sfsft.com/video.php?url=" selected>接口11</option>
+				<li>
+				  <div class="col-md-4 col-sm-4">
+					<h3 class="icon-use">
+					  m
+					</h3>
+					<p class="head-sm">
+					  FRONT END
+					</p>
+					<p class="text-grey">
+					  Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem. 
+					</p>
+				  </div>
+				</li>
+			  </ul>
 
-                        <option value="http://www.82190555.com/video.php?url= selected>接口12</option>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</section>
+	<!--/.SERVICES END-->
 
-                        <option value="http://2.jx.72du.com/video.php?url= selected>接口13</option>
+	<!--EMPLOYEMENT-->
+	<section class="grey-bg" id="employement">
+	  <div class="container">
+		<div class="row">
+		  <div class="col-md-3">
+			<h3 class="title-small">
+			  <span>Employement</span>
+			</h3>
+			<p class="content-detail">
+			  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+			</p>
+		  </div>
+		  <div class="col-md-9 content-right">
+			<div class="row">
+			  <ul class="listing-item">
+				<li>
+				  <div class="col-md-6 col-sm-6">
+					<div class="wrap-card">
+					  <div class="card">
+						<h2 class="year">
+						  2007 - 2009
+						</h2>
+						<p class="job">
+						  web designer
+						</p>
+						<p class="company">
+						  Corp Project
+						</p>
+						<hr>
+						<div class="text-detail">
+						  <p>
+							Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+						  </p>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</li>
 
-                        <option value="http://www.97panda.com/kkflv/index.php?url=" selected>接口14</option>
+				<li>
+				  <div class="col-md-6 col-sm-6">
+					<div class="wrap-card">
+					  <div class="card">
+						<h2 class="year">
+						  2009 - 2010
+						</h2>
+						<p class="job">
+						  web designer
+						</p>
+						<p class="company">
+						  Google inc
+						</p>
+						<hr>
+						<div class="text-detail">
+						  <p>
+							Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+						  </p>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</li>
+			  </ul>  
+			  <ul class="listing-item">
+				<li>
+				  <div class="col-md-6 col-sm-6">
+					<div class="wrap-card">
+					  <div class="card">
+						<h2 class="year">
+						  2010 - 2014
+						</h2>
+						<p class="job">
+						  crative director 
+						</p>
+						<p class="company">
+						  41 studio
+						</p>
+						<hr>
+						<div class="text-detail">
+						  <p>
+							Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+						  </p>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</li>
 
-                        <option value="http://jx.vgoodapi.com/jx.php?url=" selected>接口15</option>
+				<li>
+				  <div class="col-md-6 col-sm-6">
+					<div class="wrap-card">
+					  <div class="card">
+						<h2 class="year">
+						  2014 - NOW
+						</h2>
+						<p class="job">
+						  fullstack designer
+						</p>
+						<p class="company">
+						  Freelance
+						</p>
+						<hr>
+						<div class="text-detail">
+						  <p>
+							Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+						  </p>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</li>
+			  </ul>
 
-                        <option value="http://www.dgua.xyz/webcloud/?url=" selected>接口16</option>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</section>
+	<!--/.EMPLOYEMENT END-->
 
-                        <option value="http://api.91exp.com/svip/?url=" selected>接口17</option>
+	<!--SKILLS-->
+	<section class="white-bg" id="skill">
+	  <div class="container">
+		<div class="row">
+		  <div class="col-md-3">
+			<h3 class="title-small">
+			  <span>Skills</span>
+			</h3>
+			<p class="content-detail">
+			  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+			</p>
+		  </div>
+		  <div class="col-md-9 content-right">
+			<!--SKILLST-->
+			<div class="skillst">
+			  <div class="skillbar" data-percent="78%">
+				<div class="title head-sm">
+				  HTML 5
+				</div>
+				<div class="count-bar">
+				  <div class="count"></div>
+				</div>
+			  </div>
+			  <div class="skillbar" data-percent="91%">
+				<div class="title head-sm">
+				  CSS 4
+				</div>
+				<div class="count-bar">
+				  <div class="count"></div>
+				</div>
+			  </div>
+			  <div class="skillbar" data-percent="58%">
+				<div class="title head-sm">
+				  jQuery
+				</div>
+				<div class="count-bar">
+				  <div class="count"></div>
+				</div>
+			  </div>
+			  <div class="skillbar" data-percent="63%">
+				<div class="title head-sm">
+				  PHP
+				</div>
+				<div class="count-bar">
+				  <div class="count"></div>
+				</div>
+			  </div>
+			  <div class="skillbar" data-percent="95%">
+				<div class="title head-sm">
+				  Photoshop
+				</div>
+				<div class="count-bar">
+				  <div class="count"></div>
+				</div>
+			  </div>
+			</div>
+			<!--/.SKILLST END-->
+		  </div>
+		</div>
+	  </div>
+	</section>
+	<!--/.SKILLS END-->
 
-                        <option value="http://vip.jlsprh.com/index.php?url=" selected>接口18</option>
+	<!--EDUCATION-->
+	<section class="grey-bg" id="education">
+	  <div class="container">
+		<div class="row">
+		  <div class="col-md-3">
+			<h3 class="title-small">
+			  <span>Education</span>
+			</h3>
+			<p class="content-detail">
+			  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+			</p>
+		  </div>
+		  <div class="col-md-9 content-right">
+			<div class="row">
+			  <ul class="listing-item">
+				<li>
+				  <div class="col-md-6 col-sm-6">
+					<div class="wrap-card">
+					  <div class="card">
+						<h2 class="year">
+						  2002 - 2005
+						</h2>
+						<p class="job">
+						  Information System
+						</p>
+						<p class="company">
+						  Telkom University
+						</p>
+						<hr>
+						<div class="text-detail">
+						  <p>
+							Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+						  </p>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</li>
 
-                        <option value="http://api.xfsub.com/index.php?url=" selected>接口19</option>
+				<li>
+				  <div class="col-md-6 col-sm-6">
+					<div class="wrap-card">
+					  <div class="card">
+						<h2 class="year">
+						  2005 - 2007
+						</h2>
+						<p class="job">
+						  DKV
+						</p>
+						<p class="company">
+						  UNIKOM
+						</p>
+						<hr>
+						<div class="text-detail">
+						  <p>
+							Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+						  </p>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</li>
+			  </ul>
+			  <ul class="listing-item">
+				<li>
+				  <div class="col-md-6 col-sm-6">
+					<div class="wrap-card">
+					  <div class="card">
+						<h2 class="year">
+						  2007 - 2009
+						</h2>
+						<p class="job">
+						  Magister DKV 
+						</p>
+						<p class="company">
+						  ITB
+						</p>
+						<hr>
+						<div class="text-detail">
+						  <p>
+							Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+						  </p>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</li>
 
-                        <option value="http://jiexi.071811.cc/jx.php?url=" selected>接口20</option>
+				<li>
+				  <div class="col-md-6 col-sm-6">
+					<div class="wrap-card">
+					  <div class="card">
+						<h2 class="year">
+						  2009 - 2010
+						</h2>
+						<p class="job">
+						  Typhography Magister
+						</p>
+						<p class="company">
+						  Florida University
+						</p>
+						<hr>
+						<div class="text-detail">
+						  <p>
+							Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+						  </p>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</li>
+			  </ul>
 
-                        <option value="http://jiexi.92fz.cn/player/vip.php?url=" selected>接口21</option>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</section>
+	<!--/.EDUCATION END-->
 
-                        <option value="http://api.baiyug.cn/vip/index.php?url=" selected>接口22</option>
+	<!--TESTIMONIAL-->
+	<section id="testimonial">
+	  <div class="container">
+		<div class="row wrap-testimonial">
+		  <div class="col-md-10 col-md-offset-1">
+			<div class="owl-carousel">
+			  <div class="list-testimonial">
+				<div class="content-testimonial">
+				  <h3 class="testi">
+					“ Reza did a phenominal job setting up my a website for my product He performed the task very quickly and efficiently. We know we have the superior topical pain relief cream on the market and he has helped us communicate that message via the website he built from scratch. Thanks! ”
+				  </h3>
+				  <p class="people">
+					Darin Cohen - Active10
+				  </p>
+				</div>
+			  </div>
+			  <div class="list-testimonial">
+				<div class="content-testimonial">
+				  <h3 class="testi">
+					“ Another successful project working with Reza. He has great design skills, is very responsive and professional. Looking forward to the next opportunity to work together. ”
+				  </h3>
+				  <p class="people">
+					Marko Milicevic
+				  </p>
+				</div>
+			  </div>
+			  <div class="list-testimonial">
+				<div class="content-testimonial">
+				  <h3 class="testi">
+					“ Great designer! I like his sense of design, especially the color scheme. Quick turnaround. Look forward to work with him again. Thanks!! ”
+				  </h3>
+				  <p class="people">
+					JK Thang
+				  </p>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  <div class="mask-testimonial"></div>
+	</section>
+	<!--/.TESTMONIAL END-->
 
-                        <option value="http://api.662820.com/xnflv/index.php?url=" selected>接口23</option>
+	<!--BLOG-->
+	<section class="grey-bg" id="blog">
+	  <div class="container">
+		<div class="row">
+		  <div class="col-md-12">
+			<h3 class="title-small-center text-center">
+			  <span>Blog</span>
+			</h3>
+			<div class="row">
+			  <div class="col-md-6 col-md-offset-3">
+				<p class="content-details text-center">
+				  Lorem ipsum dolor sit amet consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt. 
+				</p>
+			  </div>
+			</div>
+			<!--GRID BLOG-->
+			<div class="grid">
+			  <div class="grid-item">
+				<div class="wrap-article">
+				  <img alt="blog-1" class="img-circle text-center" src="images/blog-1.png">
+				  <p class="subtitle fancy">
+					<span>09/01/2017</span>
+				  </p>
+				  <a href="">
+					<h3 class="title">
+					  Popular Design in 2017 
+					</h3>
+				  </a>
+				  <p class="content-blog">
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.
+				  </p>
+				</div>
+			  </div>
 
-                        <option value="http://www.82190555.com/index/qqvod.php?url=" selected>接口24</option>
-                        <option value="http://yyygwz.com/index.php?url=" selected>接口25</option>
+			  <div class="grid-item">
+				<div class="wrap-article">
+				 <img alt="blog-4" class="img-circle text-center" src="images/blog-4.jpg">
+				 <p class="subtitle fancy">
+					<span>08/20/2017</span>
+				  </p>
+				  <a href="">
+					<h3 class="title">
+					  Just Start
+					</h3>
+				  </a>
+				  <p class="content-blog">
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+				  </p>
+				</div>
+			  </div>
 
-                        <option value="http://www.97panda.com/kkflv/index.php?url=" selected>接口26</option>
+			  <div class="grid-item">
+				<div class="wrap-article">
+				  <img alt="blog6" class="img-circle text-center" src="images/blog-6.jpg">
+				  <p class="subtitle fancy">
+					<span>08/11/2017</span>
+				  </p>
+				  <a href="">
+					<h3 class="title">
+					  The Huffington Post
+					</h3>
+				  </a>
+				  <p class="content-blog">
+				   Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+				  </p>
+				</div>
+			  </div>
+			  
+			  <div class="grid-item">
+				<div class="wrap-article">
+				  <img alt="blog2" class="img-circle text-center" src="images/blog-2.jpg">
+				  <p class="subtitle fancy">
+					<span>08/03/2017</span>
+				  </p>
+				  <a href="">
+					<h3 class="title">
+					  Manuk!
+					</h3>
+				  </a>
+				  <p class="content-blog">
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+				  </p>
+				</div>
+			  </div>
 
-                        <option value="http://jx.api.163ren.com/vod.php?url=" selected>接口27</option>
+			  <div class="grid-item">
+				<div class="wrap-article">
+				  <img alt="blog5" class="img-circle text-center" src="images/blog-5.jpg">
+				  <p class="subtitle fancy">
+					<span>07/26/2017</span>
+				  </p>
+				  <a href="">
+					<h3 class="title">
+					  Do Web Designer Really Need To Know UI/UX Design and Backend Code too?
+					</h3>
+				  </a>
+				  <p class="content-blog">
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+				  </p>
+				</div>
+			  </div>
 
-                        <option value="http://lookxw.com/yingzi/?url=" selected>接口28</option>
+			  <div class="grid-item">
+				<div class="wrap-article">
+				  <img alt="blog-3" class="img-circle text-center" src="images/blog-3.jpg">
+				  <p class="subtitle fancy">
+					<span>08/03/2017</span>
+				  </p>
+				  <a href="">
+					<h3 class="title">
+					  Somewhere Place
+					</h3>
+				  </a>
+				  <p class="content-blog">
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.
+				  </p>
+				</div>
+			  </div>                  
 
-                        <option value="http://www.0335haibo.com/tong.php?url=" selected>接口29</option>
+			</div>
+			<!--/.GRID BLOG END-->
+		  </div>
+		</div>
+	  </div>
+	</section>
+	<!--/.BLOG END-->
 
-                        <option value="http://www.wmxz.wang/video.php?url=" selected>接口30</option>
+	<!--CONTACT-->
+	<section id="contact" class="white-bg">
+	  <div class="container">
+		<div class="row">
+		  <div class="col-md-3">
+			<h3 class="title-small">
+			  <span>Contact</span>
+			</h3>
+			<p class="content-detail">
+			  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+			</p>
 
-                        <option value="http://api.97kn.com/?url=" selected>接口31</option>
+		  </div>
+		  <div class="col-md-9 content-right">
+			<form>
+			  <div class="group">
+				<input required="" type="text"><span class="highlight"></span><span class="bar"></span><label>Name</label>
+			  </div>
+			  <div class="group">
+				<input required="" type="email"><span class="highlight"></span><span class="bar"></span><label>Email</label>
+			  </div>
+			  <div class="group">
+				<textarea required=""></textarea><span class="highlight"></span><span class="bar"></span><label>Message</label>
+			  </div>
+			  <input id="sendMessage" name="sendMessage" type="submit" value="Send Message">
+			</form>
+		  </div>
+		</div>
+	  </div>
+	</section>
+	<!--/.CONTACT END-->
+	
+	<!--FOOTER-->
+	<footer>
+	  <div class="footer-top">
+		<ul class="socials">
+		  <li class="facebook">
+			<a href="" data-hover="Facebook">Facebook</a>
+		  </li>
+		  <li class="twitter">
+			<a href="" data-hover="Twitter">Twitter</a>
+		  </li>
+		  <li class="gplus">
+			<a href="" data-hover="Google +">Google +</a>
+		  </li>
+		</ul>
+	  </div>
 
-                        <option value="https://aikanapi.duapp.com/odflv105/index.php?url=" selected>接口32</option>
-                        <option value="http://v.buy360.vip/wwcx/index.php?url=" selected>接口33</option>
-                        <option value="http://api.lequgirl.com/?url=" selected>接口34</option>
-                        <option value="https://jxapi.nepian.com/ckparse/?url=" selected>接口35</option>
-                        <option value="http://91k.co/play.php?url=" selected>接口36</option>
-                        <option value="http://www.52jiexi.com/yun.php?url=" selected>接口37</option>
-                        <option value="http://mt2t.com/yun?url=">接口38</option>
-                        <option value="http://000o.cc/jx/ty.php?url=">接口39</option>
-                        <option value="http://yyygwz.com/index.php?url=">接口40</option>
-                        <option value="http://vipjiexi.com/vip.php?url=">接口41</option>
-                        <option value="http://www.wmxz.wang/video.php?url=">接口42</option>
-                        <option value="http://jx.ck921.com/?url=">接口43</option>
-                        <option value="http://s1y2.com/?url=">接口44</option>
-                        <option value="http://www.ou522.cn/t2/1.php?url=">接口45</option>
-                        <option value="http://jx.xuanpianwang.com/parse?url=">接口46</option>
-                        <option value="https://apiv.ga/magnet/">接口47</option>
-<option value="http://jiexi.92fz.cn/player/vip.php?url=">接口48</option>
-                </select>
-                <input type="text" name="vipurl" id="vipurl" size=88 value="http://v.youku.com/v_show/id_XMzA4MjMyOTA1Ng==.html">
-                <input type="button" value="播放" onclick="onPlay()">
-                <input type="button" value="清除" onclick="onClear()">
-         </form>
-        </td>
-</tr>
-<tr>
-        <td><iframe src="" name="play" id="play" width="100%" align="center" height="100%" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe></td>
-</tr>
-</table>
+	  <div class="footer-bottom">
+		<div class="container">
+		  <div class="row">
+			<img src="images/logo-bottom.png" alt="logo bottom" class="center-block">Copyright &copy; 2017.Company name All rights reserved.<a target="_blank" href="../../../../Index.html">&#x7F51;&#x9875;&#x6A21;&#x677F;</a>
+		  </div>
+		</div>
+	  </div>
+	</footer>
+	<!--/.FOOTER-END-->
+
+  <!--/.CONTENT END-->
+  </div>
+<!--/.CONTENT-WRAP END-->
+</div>
+
+
+<script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="js/jquery.appear.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src="js/classie.js" type="text/javascript"></script>
+<script src="js/owl.carousel.min.js" type="text/javascript"></script>
+<script src="js/jquery.magnific-popup.min.js" type="text/javascript"></script>
+<script src="js/masonry.pkgd.min.js" type="text/javascript"></script>
+<script src="js/masonry.js" type="text/javascript"></script>
+<script src="js/smooth-scroll.min.js" type="text/javascript"></script>
+<script src="js/typed.js" type="text/javascript"></script>
+<script src="js/main.js" type="text/javascript"></script>
 </body>
 </html>
